@@ -42,6 +42,7 @@ nav a:hover {
 .principal {
 	background-image: url(/src/img/bg.jpg);
 	padding: 30px;
+    text-align: center;
 }
 
 .titulo-principal {
@@ -56,11 +57,10 @@ nav a:hover {
 p {
     margin-bottom: 10px;
     color: #cfcece;
-	text-align: center;
+	
 }
 
 #missao {
-    position: absolute;
     padding: 5px;
     display: inline-block;
     border-style: solid;
@@ -68,8 +68,7 @@ p {
     border-color: #cfcece;
     border-radius: 5px;
 	font-size: 20px;
-    margin-left: 25%;
-    margin-top: 15px;
+    margin: 15px auto;
 }
 
 em strong {
