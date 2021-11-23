@@ -70,3 +70,21 @@ footer {
     font-size: 13px;
     margin-top: 10px;
 }
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor:pointer;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+}
