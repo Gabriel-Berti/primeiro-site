@@ -126,6 +126,7 @@ nav a:hover {
 	width: 60%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 5px 5px 10px #cfcece;
 }
 
 .imagem-beneficios:hover {
