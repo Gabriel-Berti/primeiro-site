@@ -7,6 +7,12 @@ header {
     padding: 20px 0;
 }
 
+main {
+    padding: 0 5em 0 5em ;
+    color: #FFFFFF;
+    background-image: url(../src/img/bg.jpg);
+}
+
 .caixa {
     position: relative;
     width: 940px;
@@ -43,13 +49,10 @@ nav a:hover {
 }
 /*Começo da main*/
 .principal {
-	background-image: url(../src/img/bg.jpg);
-	padding: 30px;
+	padding: 30px 0;
 }
 
 .titulo-principal {
-    text-decoration: underline;
-    color: #cfcece;
 	text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -64,9 +67,7 @@ nav a:hover {
 }
 
 .principal p {
-    margin: 0 0 1em;
-    color: #cfcece;
-	
+    margin: 0 0 1em;	
 }
 
 .principal strong {
@@ -88,19 +89,18 @@ nav a:hover {
     margin: 15px auto;
 }
 
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p { 
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .beneficios {
-	background-image: url(../src/img/bg.jpg);
 	padding: 20px;
 } 
-
-.titulo-beneficios {
-    color: #cfcece;
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-
-}
 
 .lista-beneficios {
     margin-left: 50px;
@@ -111,7 +111,6 @@ nav a:hover {
 }
 
 .itens {
-    color: #cfcece;
 	font-style: italic;
     font-size: 18px;
 }
