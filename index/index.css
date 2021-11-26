@@ -137,6 +137,10 @@ nav a:hover {
     margin: 1em auto;
 }
 
+.jogarfora {
+    display: none;
+}
+
 footer {
     text-align: center;
     background-image: url(../src/img/bg.jpg);
@@ -187,5 +191,9 @@ footer {
     .lista-beneficios {
         width: 80%;
         margin: 0 auto 2em;
+    }
+
+    .jogarfora {
+        display: none;
     }
 }

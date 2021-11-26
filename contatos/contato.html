@@ -2,9 +2,13 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Barbearia Alura - Contato</title>
         <link rel="stylesheet" href="../reset.css">
         <link rel="stylesheet" href="./contato.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -31,7 +35,7 @@
                 <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
                 
                 <label for="mensagem">Mensagem</label>                
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                <textarea cols="54" rows="10" id="mensagem" class="input-padrao" required></textarea>
                 
                 <fieldset>
                     <legend>Como prefere o nosso contato?</legend>
@@ -42,7 +46,7 @@
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                 </fieldset>
                 <fieldset>
-                    <legend>Qual horário prefere ser atendido?</legend>
+                    <legend class="label-horario">Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>

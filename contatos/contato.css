@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -39,7 +43,7 @@ main {
 }
 
 form {
-    margin: 40px 0;
+    margin: 2em 0;
 }
 
 form label, form legend {
@@ -51,7 +55,7 @@ form label, form legend {
 .input-padrao {
     display: block;
     margin: 0 0 20px;
-    padding: 10px 25px;
+    padding: 0.5em 0.7em;
     width: 50%;
 }
 
@@ -59,19 +63,8 @@ form label, form legend {
     margin: 20px 0;
 }
 
-footer {
-    text-align: center;
-    background-image: url(../src/img/bg.jpg);
-    padding: 20px 0;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 10px;
-}
-
 .enviar {
+    margin: 1em auto 2em;
     width: 40%;
     padding: 15px 0;
     background-color: orange;
@@ -90,7 +83,7 @@ footer {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px auto 40px;
 }
 
 thead {
@@ -102,4 +95,48 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(../src/img/bg.jpg);
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+
+    main {
+        width: auto;
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav ul{
+        width: auto;
+        text-align: center;
+    }
+
+    nav li {
+        width: auto;
+    }
+
+    .input-padrao {
+        width: auto;
+    }
 }
