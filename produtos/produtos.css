@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -88,4 +92,38 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .lista-produtos{
+        width: auto;
+    }
+    .lista-produtos li {
+        background-color: #FFFFFF;
+        width: 80%;
+        display: block;
+        margin: 0  auto 1em;
+    }
+
+    main {
+        background-image: url(../src/img/bg.jpg);
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav ul{
+        width: auto;
+        text-align: center;
+    }
+
+    nav li {
+        width: auto;
+    }
 }
