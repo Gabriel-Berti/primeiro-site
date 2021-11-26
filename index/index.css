@@ -155,7 +155,7 @@ footer {
     }
 
     main {
-        padding: 0;
+        padding: 10px;
     }
     
     h1 {
@@ -166,6 +166,11 @@ footer {
         position: static;
     }
 
+    nav ul{
+        width: auto;
+        text-align: center;
+    }
+
     nav li {
         width: auto;
     }
@@ -174,9 +179,13 @@ footer {
         padding: 0;
     }
 
-    .lista-beneficios, .imagem-beneficios {
+    .conteudo-beneficios > .imagem-beneficios{
+        display: block;
         width: 80%;
-        margin: 0 auto 1em
+        margin: 0 auto;
     }
-
+    .lista-beneficios {
+        width: 80%;
+        margin: 0 auto 2em;
+    }
 }
